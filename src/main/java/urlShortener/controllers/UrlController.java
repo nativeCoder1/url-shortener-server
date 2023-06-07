@@ -11,7 +11,7 @@ import urlShortener.services.UrlService;
 import java.io.IOException;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://tiny-62xa.onrender.com")
 public class UrlController {
     @Autowired
     private UrlService urlService;
